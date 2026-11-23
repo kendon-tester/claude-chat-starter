@@ -1,0 +1,1 @@
+{ "name": "cold-chat", "version": "0.1.0", "description": "Puts a 🛑 in front of any chat's sidebar title once its prompt cache has gone cold (idle over an hour), so you know reopening it rereads everything at full price. Removed when the chat runs again." }
