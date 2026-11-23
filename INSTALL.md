@@ -18,4 +18,10 @@
 - Keep tool output small (head/grep/limits), never dump big files or logs.
 ```
 
-5. Tell the user: "Done. Restart the Claude app once so the 🛑 mod loads." The 🛑 only shows in the Claude desktop app.
+5. Tell the user, in these plain words:
+   "Done. Restart the Claude app once so the 🛑 loads. Here's what you got:
+   - Chats now save your progress in a START HERE file as you work.
+   - When a chat gets long, say "new chat". I'll give you one line to paste into a fresh chat, and it picks up right where you left off. Long chats eat your usage fast.
+   - A 🛑 on a chat's name means it's been sitting over an hour. Don't keep typing in it, because waking it costs a lot. Say "new chat" in it, or start a new chat with "continue <the job> from START HERE".
+   - Say "archive this chat" when you're done with one, and I'll check nothing's left behind first."
+   The 🛑 only shows in the Claude desktop app.
